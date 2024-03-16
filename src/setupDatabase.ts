@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 import Logger from 'bunyan';
 import { config } from './config';
 
+
 const log: Logger = config.createLogger('setupDatabase');
 
 export default () => {
